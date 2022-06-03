@@ -1,0 +1,22 @@
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-rows: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+         "nav main content5"
+         "content6 sidebar sidebar"
+         "content6 content1 content1"
+         "content6 content2 content2"
+         "content6 content3 content3"
+         "content6 content4 content4"
+;
+    border: 1px black;
+}
+main{
+    grid-area: upperside;
+}
+.c1{
+    grid-area: centre;
+}
